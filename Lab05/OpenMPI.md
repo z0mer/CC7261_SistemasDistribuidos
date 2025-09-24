@@ -1,3 +1,4 @@
+```c
 #include <mpi.h>    // Biblioteca principal do MPI para comunicação entre processos.
 #include <stdio.h>  // Biblioteca padrão de entrada e saída em C (para funções como printf).
 #include <stdlib.h> // Biblioteca padrão para alocação de memória (malloc) e outras utilidades.
@@ -76,3 +77,4 @@ int main(int argc, char** argv) {
     // Finaliza o ambiente MPI. Esta deve ser a última função MPI a ser chamada.
     MPI_Finalize();
 }
+```
